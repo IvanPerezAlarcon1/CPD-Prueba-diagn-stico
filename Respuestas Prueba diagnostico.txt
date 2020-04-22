@@ -1,0 +1,15 @@
+¿En qué consiste la exclusión mutua?
+R: Es un sistema multiprogramado con un único procesador, los procesos en el tiempo se intercalan para dar una apariencia de
+simulación simultánea. Aunque no se consigue un procesador en paralelo real. Esto puede llevar a un sobrecargo en la cpu por
+el hecho de tener que cambiar de tarea constantemente.
+Otra definición es cuando un proceso excluye temporalmente a todos los demás para usar un recurso compartido garantizando
+la integridad en el funcionamiento del sistema.
+Un ejemplo es una situación en la que dos o más procesos leen o escriben en un área de memoria compartida y el resultado final
+depende de los instantes de ejecución de cada uno, esto se soluciona impidiendo que más de un proceso acceda simultáneamente a
+las variables compartidas. Esto se soluciona garantizando la exclusión mutua.
+
+¿Qué es un Sockets?
+R: Es un método de comunicación entre un programa cliente y un programa servidor en una red. También se define como el punto
+final en una conexión.
+Es un tipo de software que establece un enlace de comunicaión de red bidireccional entre el extremo del servidor y el programa
+receptor del cliente.
